@@ -268,5 +268,70 @@ header nav .toggle-menu{
 
 }
 /* End services */
+/* start design */
+.design{
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    align-items: center;
+    background-image: url(../images/design-features.jpg);
+    position: relative;
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    
+}
+.design .image img{
+    height: 300px;
+}
+.design .image,
+.design .text{
+    z-index: 3;
+    position: relative;
+    flex: 1;
+}
+.design .image{
+    bottom: -120px;
+    right: -100px;
+}
+@media(max-width:600px){
+    .design .image{
+        display: none;
+    }
+}
+.design .text{
+    background-color: var(--transparen-color);
+    padding: 30px;
+}
+.design::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 60%);
+}
+.design .text{
+    color: white;
+}
+.design .text h4{
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-transform: uppercase;    
+}
+.design .text ul li{
+    padding: 5px 0;
+    font-size: 12px;
+}
+.design .text ul li::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f108";
+    font-weight: 900;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+/* End design */
 
 
