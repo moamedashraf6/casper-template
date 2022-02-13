@@ -378,6 +378,39 @@ header nav .toggle-menu{
 .portfolio .imgs-container .box img{
     max-width: 100%;
 }
+
+
+.portfolio .imgs-container .box img{
+    max-width: 100%;
+    cursor: pointer;
+    transition: .3s;
+}
+.portfolio .imgs-container .box{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .imgs-container .box .caption{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    transition: 0.3s;
+    bottom: -100%;
+    width: 100%;
+}
+.portfolio .imgs-container .box:hover .caption{
+    bottom: 0;
+}
+.portfolio .imgs-container .box:hover img{
+    transform:rotate(3deg) scale(1.1);
+}
+.portfolio .imgs-container .box .caption h4{
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.portfolio .imgs-container .box .caption p{
+    color: var(--main-color);
+}
 /* End portfolio */
 
 
