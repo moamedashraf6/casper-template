@@ -351,15 +351,15 @@ header nav .toggle-menu{
 .portfolio .imgs-container .box{
     flex-basis: 25%;
 }
-@media(max-width:800px){
-    .portfolio .imgs-container .box img{
-        width: 100%;
-    }
+@media(max-width:750px){
     .portfolio .imgs-container .box{
         flex-basis: 50%;
     }
+    .portfolio .imgs-container .box img{
+        width: calc(750px / 2);
+    }
 }
-@media(max-width:420px){
+@media(max-width:480px){
     .portfolio .imgs-container .box{
         flex-basis: 100%;
     }
@@ -367,19 +367,6 @@ header nav .toggle-menu{
         width: 100%;
     }
 }
-@media(min-width:850px){
-    .portfolio .imgs-container .box{
-        flex-basis: 25%;
-    }
-    .portfolio .imgs-container .box img{
-        width: 100%;
-    }
-}
-.portfolio .imgs-container .box img{
-    max-width: 100%;
-}
-
-
 .portfolio .imgs-container .box img{
     max-width: 100%;
     cursor: pointer;
