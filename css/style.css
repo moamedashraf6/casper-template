@@ -333,5 +333,51 @@ header nav .toggle-menu{
     top: 2px;
 }
 /* End design */
+/* start portfolio */
+.portfolio .shufle{
+    display: flex;
+    justify-content: center;
+}
+.portfolio .shufle li{
+    padding: 8px;
+}
+.portfolio .shufle li.active{
+    background-color: var(--main-color);
+}.portfolio .imgs-container{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio .imgs-container .box{
+    flex-basis: 25%;
+}
+@media(max-width:800px){
+    .portfolio .imgs-container .box img{
+        width: 100%;
+    }
+    .portfolio .imgs-container .box{
+        flex-basis: 50%;
+    }
+}
+@media(max-width:420px){
+    .portfolio .imgs-container .box{
+        flex-basis: 100%;
+    }
+    .portfolio .imgs-container .box img{
+        width: 100%;
+    }
+}
+@media(min-width:850px){
+    .portfolio .imgs-container .box{
+        flex-basis: 25%;
+    }
+    .portfolio .imgs-container .box img{
+        width: 100%;
+    }
+}
+.portfolio .imgs-container .box img{
+    max-width: 100%;
+}
+/* End portfolio */
 
 
