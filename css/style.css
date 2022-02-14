@@ -91,6 +91,11 @@ header .container-header .logo img{
     width: 80px;
     
 }
+@media(max-width:767px){
+    header .container-header .logo img{
+        margin-top: 22px;
+    }
+}
 .container-header::after{
     content: "";
     position: absolute;
