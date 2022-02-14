@@ -461,3 +461,63 @@ header nav .toggle-menu{
     bottom: -120px;
 }
 /* End about */
+/* start stats */
+.stats{
+    background-image: url(../images/stats.jpg);
+    background-size: cover;
+    margin-top: -150px;
+    text-align: center;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.stats::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 60%);
+}
+.stats .container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: var(--transparen-color);
+}
+.stats .container .box{
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 25%;
+}
+@media(max-width: 767px){
+    .stats .container .box{
+        flex-basis: 50%;
+    }
+}
+@media(max-width: 480px){
+    .stats .container .box{
+        flex-basis: 100%;
+    }
+}
+.stats .container .box i{
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 14px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.stats .container .box .number{
+    font-size: 35px;
+    margin-bottom:14px;
+    font-weight: bold;
+}
+.stats .container .box p{
+    font-size: 12px;
+}
+/* End stats */
