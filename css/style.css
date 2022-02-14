@@ -403,6 +403,16 @@ header nav .toggle-menu{
 .portfolio .imgs-container .box .caption p{
     color: var(--main-color);
 }
+.portfolio .more{
+    padding: 5px 23px;
+    background-color: var(--main-color);
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    margin-top: 20px;
+}
 /* End portfolio */
 /* start video */
 .video{
