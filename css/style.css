@@ -635,6 +635,7 @@ header nav .toggle-menu{
     color: rgb(255, 255, 255);
     right: -15px;
     position: absolute;
+    border-radius: 3px;
     padding: 2px;
     top: -35px;
 }
