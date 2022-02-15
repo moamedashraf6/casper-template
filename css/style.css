@@ -651,3 +651,39 @@ header nav .toggle-menu{
     
 }
 /* End skills */
+/* start quote */
+.quote{
+    background-image: url(../images/quote.jpg);
+    background-size: cover;
+    padding-top: 130px;
+    text-align: center;
+    padding-bottom: 130px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.quote::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.quote .container{
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.quote .container q{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 25px;
+    position: relative;
+}
+/* End quote */
