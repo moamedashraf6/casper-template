@@ -880,3 +880,64 @@ header nav .toggle-menu{
     font-size: 16px;
 }
 /*  End subscribe */
+/* start contact */
+.contact{
+    padding-bottom: 70px;
+}
+.contact .content{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .content form{
+    flex-basis: 62%;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.contact .content .main-input{
+    display: block;
+    margin-bottom: 20px;
+    border:1px solid #ccc;
+    font-size: 14px;
+    height: 36px;
+    padding: 15px;
+    width: 94%;
+}
+.contact .content textarea.main-input{
+    height: 160px;
+}
+.contact .content .main-input:focus{
+    outline: none;
+}
+.contact .content form input[type="submit"]{
+    border:none;
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+}
+.contact .content .info span{
+    display: block;
+    color: #777;
+    margin-bottom: 10px;
+}
+.contact .content .info{
+    flex-basis: 25%;
+}
+.contact .content .info h4{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.contact .content .info{
+    flex-basis: 25%;
+}
+.contact .content .info h4:last-of-type{
+    margin-bottom: 30px;
+    margin-top: 75px;
+    font-weight: 600;
+}
+.contact .content .info address{
+    line-height: 2;
+    color: #777;
+}
+/* End contact */
