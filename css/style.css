@@ -888,6 +888,28 @@ header nav .toggle-menu{
     display: flex;
     justify-content: space-between;
 }
+@media(max-width:767px){
+    .contact .content{
+        flex-direction:column;
+        text-align: center;
+    }
+    .contact .content form{
+        margin-right: 55px;
+    }
+    .contact .content .info{
+        position: relative;
+        order: -1;
+        margin-bottom: 100px;
+    }
+    .contact .content .info h4:nth-of-type(2){
+        position: relative;
+        top: -50px;
+    }
+    .contact .content .info address{
+        position: relative;
+        top: -70px;
+    }
+}
 .contact .content form{
     flex-basis: 62%;
     justify-content: space-between;
