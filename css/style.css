@@ -967,3 +967,47 @@ header nav .toggle-menu{
     color: #777;
 }
 /* End contact */
+/* start Footer */
+.main-footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../images/subscribe.jpg);
+    background-size: cover;
+    position: relative;
+}
+.main-footer::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 50%);
+}
+.main-footer .container{
+    position: relative;
+    color: white;
+}
+.main-footer .container img{
+    margin-bottom: 40px;
+}
+.main-footer .container p:first-of-type{
+    border-bottom: 1px solid white;
+    width: fit-content;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    margin: 0 auto;
+}
+.main-footer .container .social-icons i{
+    padding: 20px 19px;
+}
+.main-footer .container p:last-of-type{
+    margin-top: 60px;
+}
+.main-footer .container p:last-of-type span{
+    color: var(--main-color);
+    font-weight: bold;
+}
+/* End Footer */
